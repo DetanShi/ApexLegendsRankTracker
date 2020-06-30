@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AL_Rank_Tracker.MainPage"
+             BackgroundColor="Black">
+
+    <StackLayout IsVisible="true" x:Name="Main_Page">
+        <!-- Place new controls here -->
+        <Label Text="Enter User Info Below" 
+           HorizontalOptions="Center"
+           TextColor="White"/>
+        <Entry Placeholder="Enter username to search..."
+               BackgroundColor="White"
+               VerticalOptions="Start"
+               x:Name="Username_Field"
+        />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Orientation="Horizontal">
+            <!--Hide Later-->
+            <Button Text="Xbox" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="Xbox_Button"
+               Clicked="Xbox_Button_Clicked"/>
+
+            <Button Text="PS4" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="PS4_Button"
+               Clicked="PS4_Button_Clicked"/>
+
+            <Button Text="PC" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="PC_Button"
+               Clicked="PC_Button_Clicked"
+               TextColor="Green"/>
+        </StackLayout>
+
+        <StackLayout IsVisible="false" x:Name="Debug_Stack">
+
+
+            <Frame x:Name="Debug_Frame" IsVisible="False">
+                <Label Text="" 
+               HorizontalOptions="Center"
+               TextColor="Black"
+               x:Name="debug_text"
+               FontSize="30"/>
+            </Frame>
+
+        </StackLayout>
+
+
+        <StackLayout IsVisible="true" x:Name="Dialogue">
+
+
+            <Frame x:Name="Username_Frame" IsVisible="False">
+                <Label Text="" 
+               HorizontalOptions="Center"
+               TextColor="Black"
+               x:Name="Rank_Player"
+               FontSize="30"/>
+            </Frame>
+
+            <Label Text="Bronze IV" 
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   x:Name="Rank_Title"
+                   FontSize="40"/>
+
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal"  HeightRequest="150" Grid.Column="0">
+                <Image Source="https://www.d3hell.com/oneonez/uploads/2020/01/Apex-legends-bronze-4-smurf.png"
+                       x:Name="Rank_Img"
+                       WidthRequest="150"
+                       Aspect="Fill"  />
+            </StackLayout>
+
+            <Label Text="0" 
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   x:Name="Rank_Value"
+                   FontSize="35"/>
+
+            <Frame x:Name="Username_EndFrame" IsVisible="False">
+                <Label Text="" 
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   x:Name="Rank_Player_Dup"
+                   FontSize="30"/>
+            </Frame>
+
+        </StackLayout>
+
+        <!--Buttons-->
+        <StackLayout HorizontalOptions="Center" VerticalOptions="EndAndExpand" Orientation="Horizontal">
+            <!--Hide Later-->
+            <Button Text="Debug" IsVisible="false"
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="Debug_Button"
+               Clicked="Debug_Button_Clicked"/>
+
+            <Button Text="Search" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="Enter_Button"
+               Clicked="Enter_Button_Clicked"/>
+
+            <Button Text="Refresh" 
+               HorizontalOptions="Center"
+               VerticalOptions="EndAndExpand"
+               x:Name="Refresh_Button"
+               Clicked="Refresh_Button_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

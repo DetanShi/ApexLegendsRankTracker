@@ -1,0 +1,13 @@
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\bin\Debug\netstandard2.0\AL Rank Tracker.deps.json
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\bin\Debug\netstandard2.0\AL Rank Tracker.dll
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\AL Rank Tracker.AssemblyInfoInputs.cache
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\AL Rank Tracker.AssemblyInfo.cs
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\bin\Debug\netstandard2.0\ref\AL Rank Tracker.dll
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\bin\Debug\netstandard2.0\AL Rank Tracker.pdb
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\AL Rank Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\AL Rank Tracker.dll
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\ref\AL Rank Tracker.dll
+C:\Users\Detan Shi\source\repos\AL Rank Tracker\AL Rank Tracker\AL Rank Tracker\obj\Debug\netstandard2.0\AL Rank Tracker.pdb
